@@ -325,4 +325,53 @@ header button{
     display: flex;
     gap: 6px;
 }
+/* the host */
+.meet-the-host{
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    margin-top: 120px;
+}
+.host-head h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 40px;
+}
+.host-des{
+    background:rgba(53, 17, 101, 0.4) ;
+    display: flex;
+    border-radius: 40px;
+    padding: 40px;
+}
+.host-des .host-description{
+    text-align: left;
+    margin-left: 50px;
+}
+.host-des .host-description .icon{
+    display: flex;
+    gap:20px;
+    
+}
+.host-des .host-description .icon .icon1, .icon2, .icon3, .icon4{
+    border: 1px solid gray;
+    border-radius: 1000px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
 
+.host-des .host-description h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+.host-des .host-description p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 18px;
+    opacity: 0.6;
+    line-height: 24px;
+}
