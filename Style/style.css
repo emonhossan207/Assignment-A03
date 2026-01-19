@@ -81,6 +81,26 @@ header button{
     background-position: center;
     background-repeat: no-repeat;
     padding: 120px;
+    position: relative;
+}
+.banner-img h4{
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color:rgba(0, 255, 136, 1) ;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5) ;
+    border-radius: 1000px;
+    position: absolute;
+    right: 41%;
+    top: 28%;
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+  0%, 80%, 100% {
+    opacity: 3;
+  }
+  20%, 25% {
+    opacity: 0;
+  }
 }
 .banner-title h1{
     color: rgba(255, 255, 255, 1);
@@ -114,6 +134,53 @@ header button{
     background: transparent;
     margin-left: 10px;
 }
+
+/* About The podcast */
+.podcast{
+    margin: 0 auto;
+    max-width: 1200px;
+   text-align: center;
+}
+.about .description h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+.about .description p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+    opacity: 0.8;
+    margin-bottom: 80px;
+}
+.podcast hr{
+    border: 1px solid rgba(255, 255, 255, 1);
+    opacity: 0.1;
+}
+
+.about .about-rank{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 80px;
+   
+}
+
+.about .about-rank h1{
+    color: #00FF88;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+.about .about-rank p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.8;
+}
+/* <!-- Why Chose TechWave */
 
 
 
