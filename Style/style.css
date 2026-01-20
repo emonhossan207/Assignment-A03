@@ -414,13 +414,10 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
      background-size: cover;
-    
 }
 footer .footer-head{
     font-size: 48px;
     color: rgba(255, 255, 255, 1);
-   
-
 }
 .footer-head h1>span{
     background:  var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
